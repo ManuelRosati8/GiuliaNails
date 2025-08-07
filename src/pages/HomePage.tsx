@@ -3,12 +3,13 @@ import React from 'react';
 import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
 import { Link } from 'react-router-dom';
+import negozio1 from '@/assets/negoziogiulia.jpg';
 
 const Hero: React.FC = () => (
     <div className="relative h-screen flex items-center justify-center text-center">
         <div 
             className="absolute inset-0 bg-cover bg-center filter grayscale blur-sm"
-            style={{ backgroundImage: "url('src/assets/negoziogiulia.jpg')" }}
+             style={{ backgroundImage: `url(${negozio1})` }}
             aria-hidden="true"
         ></div>
         <div className="absolute inset-0 bg-brand-pink opacity-50" aria-hidden="true"></div>

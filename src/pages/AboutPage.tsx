@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
 
-const carouselImages = [
-  'src/assets/negoziogiulia.jpg',
-  'src/assets/negoziogiulia2.jpg',
-  'src/assets/negoziogiulia3.jpg',
-];
+import negozio1 from '@/assets/negoziogiulia.jpg';
+import negozio2 from '@/assets/negoziogiulia2.jpg';
+import negozio3 from '@/assets/negoziogiulia3.jpg';
+
+const carouselImages = [negozio1, negozio2, negozio3];
 
 const AboutPage: React.FC = () => {
   usePageMeta('Chi Siamo', 'Scopri la storia e la passione di Giulia Nails. Professionalità e amore per l\'arte dell\'onicotecnica al tuo servizio.');
