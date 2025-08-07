@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
             </h1>
         </AnimatedSection>
 
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
           <AnimatedSection delay="duration-500">
             <div className="relative rounded-lg shadow-2xl w-full h-96 md:h-[480px] overflow-hidden">
                 {carouselImages.map((src, index) => (
@@ -46,20 +46,27 @@ const AboutPage: React.FC = () => {
                 ))}
             </div>
           </AnimatedSection>
-          <div className="space-y-6">
-            <AnimatedSection delay="duration-700">
-                <h2 className="text-3xl font-serif text-brand-dark mb-4">Chi sono</h2>
-                <p className="text-stone-600 leading-relaxed">
-                    Ciao, sono Giulia. La mia avventura nel mondo dell'onicotecnica è nata da una profonda passione per l'estetica e l'arte. Ho trasformato questo amore in una professione, dedicandomi con anima e corpo a perfezionare la mia tecnica e a rimanere costantemente aggiornata sulle ultime tendenze e innovazioni del settore.
+          
+          <AnimatedSection delay="duration-700">
+            <div className="space-y-4 text-lg text-stone-700 leading-relaxed">
+                <p>
+                    Ciao! Mi chiamo Giulia, ho 21 anni e sono un’onicotecnica certificata dalla Regione Lazio dal 2022.
                 </p>
-            </AnimatedSection>
-            <AnimatedSection delay="duration-1000">
-                <h2 className="text-3xl font-serif text-brand-dark mb-4">La mia filosofia</h2>
-                <p className="text-stone-600 leading-relaxed">
-                    Credo che le mani siano un biglietto da visita fondamentale e che unghie curate possano aumentare la fiducia in se stesse. Il mio obiettivo non è solo quello di offrire un servizio impeccabile, ma di creare un'atmosfera accogliente e rilassante, dove ogni cliente possa sentirsi coccolata e ascoltata. Utilizzo solo prodotti di altissima qualità, sicuri e performanti.
+                <p>
+                    Ho sempre avuto una grande passione per l’estetica e tutto ciò che è creatività. Così ho deciso di trasformare questo amore in un vero lavoro, dedicandomi a migliorare ogni giorno e a restare sempre aggiornata sulle ultime tendenze e innovazioni del settore.
                 </p>
-            </AnimatedSection>
-          </div>
+                <p>
+                    Fin da subito ho capito che questo non era solo un lavoro, ma una vera passione. 
+                    E a gennaio 2025, con tanto impegno e un pizzico di coraggio, ho aperto il mio primo negozio!
+                </p>
+                <p>
+                    Il mio obiettivo? Offrirti un'esperienza unica, dove professionalità, accoglienza e perfezione si incontrano.
+                </p>
+                <p className="font-semibold text-brand-dark pt-4">
+                    Ti aspetto per farti vivere un momento tutto tuo!🩷
+                </p>
+            </div>
+          </AnimatedSection>
         </div>
       </div>
     </div>

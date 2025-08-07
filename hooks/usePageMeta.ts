@@ -13,7 +13,6 @@ const usePageMeta = (title: string, description: string): void => {
     }
     descriptionMeta.setAttribute('content', description);
 
-    // Clean up function is not strictly necessary as the next page's effect will override
   }, [title, description]);
 };
 

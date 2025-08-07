@@ -3,15 +3,14 @@ import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
 import { type Service } from '../types';
 
-const BrushIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.5L15.232 5.232z" /></svg>;
 const SparklesIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m1-9l-3-3m5 0l-3 3m5 6l-3 3M19 7l-3-3" /></svg>;
 const HandIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.69 13.91A10.27 10.27 0 0012 5.09 10.27 10.27 0 003.31 13.91a1.64 1.64 0 001.09 1.54 10.27 10.27 0 0015.2 0 1.64 1.64 0 001.09-1.54zM9 16.5v-3.5a3 3 0 016 0v3.5" /></svg>;
 
 const services: Service[] = [
-  { name: 'Manicure Semipermanente', description: 'Applicazione di smalto semipermanente a lunga durata con una vasta scelta di colori. Perfetto per unghie impeccabili per settimane.', icon: <BrushIcon /> },
+  { name: 'Manicure Semipermanente', description: 'Applicazione di smalto semipermanente a lunga durata con una vasta scelta di colori. Perfetto per unghie impeccabili per settimane.', icon: <HandIcon /> },
   { name: 'Ricostruzione Unghie in Gel', description: 'Allungamento e modellatura dell\'unghia con gel di alta qualità per un risultato naturale, resistente e duraturo.', icon: <HandIcon /> },
   { name: 'Nail Art & Decorazioni', description: 'Dai semplici glitter a complessi disegni a mano libera, personalizza le tue unghie per renderle uniche e speciali.', icon: <SparklesIcon /> },
-  { name: 'Pedicure Estetico', description: 'Trattamento completo per la bellezza dei piedi, con applicazione di smalto classico o semipermanente.', icon: <BrushIcon /> },
+  { name: 'Pedicure Estetico', description: 'Trattamento completo per la bellezza dei piedi, con applicazione di smalto classico o semipermanente.', icon: <HandIcon /> },
   { name: 'Copertura in Gel', description: 'Rinforza le tue unghie naturali con uno strato di gel, ideale per chi desidera maggiore resistenza senza allungamento.', icon: <HandIcon /> },
   { name: 'Rimozione Sicura', description: 'Rimozione professionale e sicura del trattamento precedente (gel o semipermanente) per preservare la salute dell\'unghia naturale.', icon: <SparklesIcon /> },
 ];
