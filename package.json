@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://manuelrosati8.github.io/GiuliaNails",
+  "homepage": "https://www.giulianails.com",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
