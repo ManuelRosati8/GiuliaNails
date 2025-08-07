@@ -4,9 +4,9 @@ import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
 
 const carouselImages = [
-  '/assets/negoziogiulia.jpg',
-  '/assets/negoziogiulia2.jpg',
-  '/assets/negoziogiulia3.jpg',
+  'src/assets/negoziogiulia.jpg',
+  'src/assets/negoziogiulia2.jpg',
+  'src/assets/negoziogiulia3.jpg',
 ];
 
 const AboutPage: React.FC = () => {

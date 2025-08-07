@@ -9,6 +9,7 @@ import PriceListPage from './pages/PriceListPage';
 import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
 import ScrollToTop from './components/ScrollToTop';
+import NotFoundPage from './pages/NotFoundPage';
 
 const App: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const App: React.FC = () => {
       <ScrollToTop />
       <div className="bg-brand-white text-brand-dark font-sans flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow flex flex-col">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/chi-siamo" element={<AboutPage />} />
@@ -24,6 +25,7 @@ const App: React.FC = () => {
             <Route path="/listino-prezzi" element={<PriceListPage />} />
             <Route path="/recensioni" element={<ReviewsPage />} />
             <Route path="/contatti" element={<ContactPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />

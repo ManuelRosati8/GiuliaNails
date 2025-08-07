@@ -1,7 +1,7 @@
 import React from 'react';
 import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
-import { type PriceItem } from '../types';
+import { type PriceItem } from '../../types';
 
 interface PriceCategory {
   title: string;

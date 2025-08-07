@@ -1,7 +1,7 @@
 import React from 'react';
 import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
-import { type Service } from '../types';
+import { type Service } from '../../types';
 
 const SparklesIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m1-9l-3-3m5 0l-3 3m5 6l-3 3M19 7l-3-3" /></svg>;
 const HandIcon = () => <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-brand-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20.69 13.91A10.27 10.27 0 0012 5.09 10.27 10.27 0 003.31 13.91a1.64 1.64 0 001.09 1.54 10.27 10.27 0 0015.2 0 1.64 1.64 0 001.09-1.54zM9 16.5v-3.5a3 3 0 016 0v3.5" /></svg>;

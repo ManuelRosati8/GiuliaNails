@@ -2,7 +2,7 @@
 import React from 'react';
 import usePageMeta from '../hooks/usePageMeta';
 import AnimatedSection from '../components/AnimatedSection';
-import { type Review } from '../types';
+import { type Review } from '../../types';
 
 const reviews: Review[] = [
   { name: 'Chiara Z.', comment: "Ragazza precisa, bravissima e organizzata, complimenti. Professionale e simpatica. Consigliatissima.", rating: 5 },

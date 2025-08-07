@@ -8,7 +8,7 @@ const Hero: React.FC = () => (
     <div className="relative h-screen flex items-center justify-center text-center">
         <div 
             className="absolute inset-0 bg-cover bg-center filter grayscale blur-sm"
-            style={{ backgroundImage: "url('/assets/negoziogiulia.jpg')" }}
+            style={{ backgroundImage: "url('src/assets/negoziogiulia.jpg')" }}
             aria-hidden="true"
         ></div>
         <div className="absolute inset-0 bg-brand-pink opacity-50" aria-hidden="true"></div>
