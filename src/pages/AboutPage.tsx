@@ -50,7 +50,7 @@ const AboutPage: React.FC = () => {
           <AnimatedSection delay="duration-700">
             <div className="space-y-4 text-lg text-stone-700 leading-relaxed">
                 <p>
-                    Ciao! Mi chiamo Giulia, ho 21 anni e sono un’onicotecnica certificata dalla Regione Lazio dal 2022.
+                    Ciao! Mi chiamo Giulia, sono un’onicotecnica certificata dalla Regione Lazio dal 2022.
                 </p>
                 <p>
                     Ho sempre avuto una grande passione per l’estetica e tutto ciò che è creatività. Così ho deciso di trasformare questo amore in un vero lavoro, dedicandomi a migliorare ogni giorno e a restare sempre aggiornata sulle ultime tendenze e innovazioni del settore.
